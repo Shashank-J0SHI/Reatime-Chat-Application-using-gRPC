@@ -14,5 +14,5 @@ A simple drop in drop out chat application to implement important concepts of a 
 - grpc-web
 
 ## Screenshots
-<img src="./Screenshots/One.png" style="height: 250px"></img>
-<img src="./Screenshots/Two.png" style="height: 250px"></img>
+<img src="./Screenshots/One.png" style="height: 300px"></img>
+<img src="./Screenshots/Two.png" style="height: 300px"></img>
