@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 -960 960 960"
+   width="48"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="home.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.6979167"
+     inkscape:cx="6.6251691"
+     inkscape:cy="3.7023004"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 209.43289,-485.93475 H 336.6155 v -184.22429 h 124.8702 v 184.22429 H 588.66831 V -772.76498 L 399.0506,-918.12338 209.43289,-773.02383 Z m -16.95768,17.10099 v -312.48171 l 206.57539,-157.79549 206.57539,157.79549 v 312.48171 H 444.52802 v -184.22429 h -90.95484 v 184.22429 z M 399.0506,-702.02907 Z"
+     id="path1"
+     style="fill:#cccccc;stroke-width:0.774054" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.66px;font-family:Armata;-inkscape-font-specification:Armata;text-align:center;text-anchor:middle;fill:none;stroke:#cdcdcd;stroke-width:48.2495;paint-order:stroke fill markers"
+     x="192.75211"
+     y="-324.34714"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Armata;-inkscape-font-specification:Armata;stroke-width:48.2495"
+       x="192.75211"
+       y="-324.34714" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:212.767px;line-height:0;font-family:Armata;-inkscape-font-specification:Armata;text-align:center;letter-spacing:3.1915px;text-anchor:middle;fill:#cccccc;stroke:#cdcdcd;stroke-width:48.2495;stroke-opacity:0;paint-order:stroke fill markers"
+     x="402.61423"
+     y="-176.63179"
+     id="text3"><tspan
+       sodipodi:role="line"
+       id="tspan3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:212.767px;line-height:0;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:3.1915px;fill:#cccccc;stroke:#cdcdcd;stroke-width:48.2495;stroke-opacity:0"
+       x="404.20996"
+       y="-176.63179">Home</tspan></text>
+</svg>

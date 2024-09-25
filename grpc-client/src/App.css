@@ -1,0 +1,469 @@
+::-webkit-scrollbar
+{
+  display: none;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track
+{
+    color: transparent;
+    background-color: rgb(30, 30, 34);
+}
+
+::-webkit-scrollbar-track-piece
+{
+    display:none;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(200, 200, 200);
+    height: 4px;
+    width: 4px;
+    border-radius: 1px;
+}
+
+#lot
+{
+  position: relative;
+  height: 75vh;
+  width: 75vh;
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(5, 5, 8);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.App-header h1
+{
+  position: absolute;
+  color: rgb(247, 247, 247);
+  transform: translateY(-50%);
+  top: 50%;
+  margin: 0 0;
+  margin-left: 70px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
+
+.App-header p span
+{
+  font-weight: 500;
+}
+
+.App .Sidebar
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 55px;
+  left: 0;
+  padding-top: 10px;
+  width: 230px;
+  height: calc(100% - 55px);
+  background-color: rgb(15, 15, 18);
+  border-top: 1px solid rgb(255, 255, 255);
+  z-index: 9
+}
+
+.App .chatSpace
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 55px;
+  left: 230px;
+  width: calc(100% - 230px);
+  height: calc(100% - 60px);
+  overflow-y: scroll;
+}
+
+#msgfield div
+{
+  background-image: url("./assets/images/next.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40%;
+}
+
+#msg
+{
+  width: 100%;
+  height: fit-content;
+  animation: pop forwards 0.2s ease-in-out;
+}
+
+#overlay
+{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: fit-content;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 18);
+  transform: scale(1);
+  transition: 0.3 opacity, 0.3 transform;
+  overflow-y: scroll;
+}
+
+#overlay.active
+{
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+#overlay h2
+{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#overlay p
+{
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#selector
+{
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+}
+
+.option
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.option p
+{
+  margin: 0 0;
+  margin-top: 10px;
+}
+
+.optImg
+{
+  position: relative;
+  border-radius: 100%;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 120px;
+  width: 120px;
+}
+
+#one
+{
+  background-image: url("./assets/images/observer.png");
+  backdrop-filter: grayscale(100%);
+  -webkit-backdrop-filter: grayscale(100%);
+}
+
+#two
+{
+  background-image: url("./assets/images/participant.png");
+  backdrop-filter: grayscale(100%);
+  -webkit-backdrop-filter: grayscale(100%);
+  background-size: 180%;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#profile
+{
+  position: relative;
+  display: flex;
+}
+
+#selectedP
+{
+  border-radius: 100%;
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+#selectedP.zero
+{
+  background-image: url(./);
+}
+
+#pimg
+{
+  background-size: cover;
+  margin: 0 8px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+#pimg:nth-child(1)
+{
+  background-image: url(./assets/Avatar/0.png);
+}
+
+#pimg:nth-child(2)
+{
+  background-image: url(./assets/Avatar/1.png);
+}
+
+#pimg:nth-child(3)
+{
+  background-image: url(./assets/Avatar/2.png);
+}
+
+#pimg:nth-child(4)
+{
+  background-image: url(./assets/Avatar/3.png);
+}
+
+#pimg:focus
+{
+  outline: white 2px solid;
+  outline-offset: 2px;
+}
+
+#detail
+{
+  position: absolute;
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: row-reverse;
+  right: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+#detail p
+{
+  position: relative;
+  width: fit-content;
+  margin-right: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#detail p span
+{
+  font-weight: 500;
+}
+
+#ppic
+{
+  position: relative;
+  border-radius: 100%;
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+}
+
+#others
+{
+  position: relative;
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  margin: 15px 10px;
+}
+
+#divImg
+{
+  position: relative;
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 8px;
+  height: 45px;
+  width: 45px;
+}
+
+#divInfo
+{
+  position: relative;
+  height: 45px;
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+
+#divInfo h4{
+  position: relative;
+  color: white;
+  margin: 0 0;
+  text-align: left;
+  width: 120px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#divInfo p
+{
+  position: relative;
+  color: white;
+  margin: 0 0;
+  text-align: left;
+  font-weight: 300;
+}
+
+#msgfield
+{
+  position: sticky;
+  display: flex;
+  bottom: 25px;
+  height: 55px;
+  width: 90%;
+  padding: 0 5%;
+}
+
+#bottom
+{
+  position: relative;
+  margin-top: 70px;
+}
+
+.userfield
+{
+  position: relative;
+  background-color: rgb(25, 25, 30);
+  height: 55px;
+  width: 400px;
+  left: 0;
+  color: white;
+  font-size: 22px;
+  padding: 0px 15px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+#redError
+{
+  visibility: hidden;
+}
+
+@media (max-width: 800px)
+{
+  .App .Sidebar
+  {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+  }
+
+  .App .Sidebar.active
+  {
+    visibility: visible;
+  }
+
+  .App .chatSpace
+  {
+    position: absolute;
+    left: 0;
+    width: 99%;
+  }
+
+  #lot
+  {
+    position: relative;
+    height: 70vw;
+    width: 70vw;
+    margin-top: 20vw;
+  }
+
+  #msgfield
+  {
+    position: fixed;
+    bottom: 20px;
+  }
+
+  .App-header h1
+  {
+    margin-left: 25px;
+  }
+
+  #detail
+  {
+    right: 25px;
+  }
+
+  #bottom
+  {
+    margin-top: 80px;
+  }
+
+  #detail p
+  {
+    width: 100%;
+    display: none;
+  }
+
+  .optImg
+  {
+    height: 100px;
+    width: 100px;
+  }
+
+  .userfield
+  {
+    height: 50px;
+    font-size: 20px;
+    width: 320px;
+  }
+
+  .userfield:focus
+  {
+    position: fixed;
+    top: 2px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 90%;
+    border: white 1px solid;
+    z-index: 5;
+  }
+
+  #selectedP
+  {
+    height: 120px;
+    width: 120px;
+  }
+}
